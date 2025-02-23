@@ -8,9 +8,22 @@
 </head>
 <body>
   <div class="container">
-    <h1>Happy Birthday, My Love! 🎉</h1>
-    <div id="image-gallery" class="gallery">
-      <!-- Images will be dynamically inserted here -->
+    <h1>Happy Birthday, Pallabi 🩵</h1>
+    
+    <!-- Dropdown for selecting years -->
+    <label for="year-select">Choose a year:</label>
+    <select id="year-select">
+      <option value="">-- Select a year --</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <!-- Add more years as needed -->
+    </select>
+
+    <!-- Container to display the selected image -->
+    <div id="image-container">
+      <img id="displayed-image" src="" alt="Birthday Message" style="display: none;">
     </div>
   </div>
   <script src="script.js"></script>
